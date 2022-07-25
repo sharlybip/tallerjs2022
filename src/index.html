@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulación del DOM básica</title>
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./assets/index.js"></script>
+    <script defer src="./assets/manipulacion.js"></script>
+    <script defer src="./assets/manipulacion-formulario.js"></script>
+</head>
+<body>
+    <h1 class="verde">Manipulación del DOM</h1>
+    <p>Esto es un párrafo</p>
+    <p class="parrafito"> __Esto es un párrafo con clase Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui voluptatum fuga laborum vero, tenetur eos ducimus recusandae aspernatur, ipsum eius impedit? Perspiciatis non, fuga vitae accusamus id explicabo impedit in? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate, animi magnam tempore facere nam illum sequi dignissimos esse tempora amet, odio iusto velit odit assumenda quasi repellendus quisquam rem deleniti.
+    Exercitationem esse recusandae dicta, perferendis unde officiis nisi vero eos iure nemo reprehenderit quaerat libero nesciunt. Ipsum praesentium harum minima, voluptatum velit nobis ea nihil saepe optio aspernatur numquam cumque!
+    Ipsam repellat, ratione porro laborum dolores rerum ab mollitia voluptate numquam quia, culpa non laboriosam sit fugiat molestiae eaque praesentium repellendus animi doloribus voluptas vero officia harum reiciendis repudiandae? Dolorem?
+    Eius voluptas maiores repellat illum quis! Nesciunt doloribus alias cupiditate deleniti vero veniam pariatur accusantium obcaecati sed expedita ad, ab facere, aliquam nemo ut voluptas quisquam. Omnis est esse saepe.
+    Accusantium nesciunt, error placeat, facilis ad qui neque saepe nihil suscipit repellat autem, natus inventore velit vitae alias vel aspernatur voluptas. Molestias corporis iure vel quibusdam quisquam ullam. Obcaecati, saepe!
+    Facere dignissimos nemo aliquam. Animi tempora saepe atque quibusdam asperiores consequatur corrupti, aperiam ab molestiae natus sequi quasi, reiciendis nisi quis nihil facilis quos voluptatibus labore laboriosam sit vero iste!
+    Fuga saepe asperiores a, dignissimos qui atque culpa unde harum ratione quam iusto totam odit similique perferendis inventore eum velit reprehenderit, incidunt doloribus? Repellendus nesciunt in, quidem sit esse voluptatibus?
+    Atque, ut, omnis sunt, reprehenderit animi modi delectus eius iure neque dolores quisquam perferendis exercitationem? Voluptates a adipisci quibusdam sint molestias, minima quae eveniet deleniti possimus expedita, accusantium eius facere.
+    Sunt similique, eos aut unde culpa quo assumenda necessitatibus, sequi dolore dolor provident vitae hic maiores, harum distinctio magnam facere consectetur quis! Dolorum mollitia, minus perspiciatis nemo dolor officia? Maxime.
+    Dolorum illo facilis aut earum natus, commodi repellat ipsam temporibus aspernatur fugiat. Aut, explicabo alias quidem consectetur hic voluptatem ut odio reiciendis optio dolorem cum? Vero harum aliquid repudiandae consequuntur?</p>
+    <p id="pid">Este es un párrafo con ID, pero no se ve por que fue borrado con codigo Javascript, saludos...</p>
+    <input type="text" placeholder="Escribe algo aquí">
+
+    <h2>Manipulacion 2.0</h2>
+    <input type="number" placeholder="Escribe un  número" id="calcular1"/>
+    <input onchange="console.log('cambio el imput')"type="number" placeholder="Escribe un  número" id="calcular2"/>
+    <button id="btnCalcular">Calucular</button>
+    <p id="resultado"></p>
+
+    <h2>Manipulacion 3.0 desde un formulario</h2>
+    <form id="form">
+        <input type="text" placeholder="Escribe un  número" id="calcular1f"/>
+        <input onchange="console.log('cambio el imput de el formulario')"type="text" placeholder="Escribe un  número" id="calcular2f"/>
+        <!-- <button id="btnCalcular" onclick="botonOnclick()">Calucular</button> -->
+        <button type="button" id="btnCalcularf">Calucular</button>
+        <p id="resultadof"></p>
+    </form>
+    
+
+</body>
+</html>

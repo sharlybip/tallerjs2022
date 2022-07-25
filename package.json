@@ -1,0 +1,19 @@
+{
+  "name": "tallerjs2022",
+  "version": "1.0.0",
+  "description": "Es la Actualizacion de el curso practico de JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sharlybip/tallerjs2022.git"
+  },
+  "author": "Carlos Dominguez <sharlybip@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sharlybip/tallerjs2022/issues"
+  },
+  "homepage": "https://github.com/sharlybip/tallerjs2022#readme"
+}
